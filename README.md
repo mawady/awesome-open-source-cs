@@ -125,6 +125,15 @@
 
 ---
 
+## USB Bootable OS Tools
+
+* balenaEtcher `Windows, macOS, Linux`: [[Github](https://github.com/balena-io/etcher)]
+* UNetbootin `Windows, macOS, Linux`: [[Github](https://github.com/unetbootin/unetbootin)]
+* Rufus `Windows`: [[Github](https://github.com/pbatard/rufus)]
+* Ventoy `Windows, Linux`: [[Github](https://github.com/ventoy/Ventoy)]
+
+---
+
 ## Related
  
 - [awesome-computer-vision-resources](https://github.com/mawady/awesome-cv): Structured learning reference for computer vision: from image fundamentals to research frontiers.
