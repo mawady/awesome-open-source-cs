@@ -7,6 +7,24 @@
 
 ---
 
+## Table of Contents
+
+- [Package Managers](#package-managers)
+- [Terminals](#terminals)
+- [Terminal Multiplexers](#terminal-multiplexers)
+- [Resource Monitors](#resource-monitors)
+- [Shell Prompt Customisation](#shell-prompt-customisation)
+- [ZSH Plug-ins](#zsh-plug-ins)
+- [Virtual Machines](#virtual-machines-vm)
+- [Container Management](#container-management)
+- [IDEs](#ides)
+- [Note Taking](#note-taking)
+- [Media](#media)
+- [USB Bootable OS Tools](#usb-bootable-os-tools)
+- [Related](#related)
+
+---
+
 ## Package Managers
 
 * Homebrew `MacOS`: [[Github](https://github.com/Homebrew/brew)]
