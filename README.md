@@ -12,7 +12,7 @@
 
 This list prioritizes **quality over comprehensiveness**:
 
-**Active Maintenance**: Tools actively updated within the past 2 years. Abandoned projects are marked Legacy or 🗄️ Archived.
+**Active Maintenance**: Tools actively updated within the past few years.
 
 **Genuine Utility**: Each tool solves real problems for CS students, researchers, and practitioners. No bloat, no niche-only tools.
 
@@ -140,13 +140,13 @@ This list prioritizes **quality over comprehensiveness**:
 
 - **zsh-syntax-highlighting** [[Github](https://github.com/zsh-users/zsh-syntax-highlighting)]: Real-time syntax highlighting in Zsh; catches errors before executing.
 - **zsh-autosuggestions** [[Github](https://github.com/zsh-users/zsh-autosuggestions)]: Suggests previous commands as you type; huge productivity boost.
-- **Bat** `Linux / MacOS / Windows` [[Github](https://github.com/sharkdp/bat)]: Cat clone with syntax highlighting and line numbers; makes code readable in terminal.
-- **fd** `Linux / MacOS / Windows` [[Github](https://github.com/sharkdp/fd)]: Fast alternative to find command; simpler syntax and colored output.
-- **ripgrep (rg)** `Linux / MacOS / Windows` [[Github](https://github.com/BurntSushi/ripgrep)]: Blazingly fast grep alternative; searches code recursively with smart defaults.
-- **fzf** `Linux / MacOS / Windows` [[Github](https://github.com/junegunn/fzf)]: Fuzzy finder for command-line; search files, history, and processes interactively.
-- **Atuin** `Linux / MacOS / Windows` [[Github](https://github.com/atuinsh/atuin)]: Shell history database in SQLite; search and sync shell history across machines.
-- **The Fuck** `Linux / MacOS / Windows` [[Github](https://github.com/nvbn/thefuck)]: Corrects your previous console command; fun and useful.
-- **eza** `Linux / MacOS / Windows` [[Github](https://github.com/eza-community/eza)]: Modern replacement for ls; colored output, tree views, and better defaults.
+- **Bat** [[Github](https://github.com/sharkdp/bat)]: Cat clone with syntax highlighting and line numbers; makes code readable in terminal.
+- **fd** [[Github](https://github.com/sharkdp/fd)]: Fast alternative to find command; simpler syntax and colored output.
+- **ripgrep (rg)** [[Github](https://github.com/BurntSushi/ripgrep)]: Blazingly fast grep alternative; searches code recursively with smart defaults.
+- **fzf** [[Github](https://github.com/junegunn/fzf)]: Fuzzy finder for command-line; search files, history, and processes interactively.
+- **Atuin** [[Github](https://github.com/atuinsh/atuin)]: Shell history database in SQLite; search and sync shell history across machines.
+- **The Fuck** [[Github](https://github.com/nvbn/thefuck)]: Corrects your previous console command; fun and useful.
+- **eza** [[Github](https://github.com/eza-community/eza)]: Modern replacement for ls; colored output, tree views, and better defaults.
 
 ---
 
