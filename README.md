@@ -197,11 +197,8 @@ This list prioritizes **quality over comprehensiveness**:
 - **Cassandra** `NoSQL` [[Website](https://cassandra.apache.org/)] | [[Github](https://github.com/apache/cassandra)]: Distributed NoSQL database; horizontal scalability and fault tolerance.
 - **Redis** `In-Memory` [[Website](https://redis.io/)] | [[Github](https://github.com/redis/redis)]: In-memory data structure store; excellent for caching, sessions, and real-time applications.
 - **Memcached** `In-Memory` [[Website](https://memcached.org/)] | [[Github](https://github.com/memcached/memcached)]: Simple, high-performance distributed memory caching system.
-
 - **ClickHouse** `Time-Series` [[Website](https://clickhouse.com/)] | [[Github](https://github.com/ClickHouse/ClickHouse)]: Blazingly fast analytical database for big data; optimized for OLAP queries.
-
 - **InfluxDB** `Time-Series` [[Website](https://www.influxdata.com/)] | [[Github](https://github.com/influxdata/influxdb)]: Time-series database; perfect for metrics, monitoring, and time-stamped data.
-
 - **Kafka** `Streaming` [[Website](https://kafka.apache.org/)] | [[Github](https://github.com/apache/kafka)]: Distributed event streaming platform for high-throughput, real-time data pipelines and event-driven applications.
 
 ---
