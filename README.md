@@ -52,6 +52,7 @@ This list prioritizes **quality over comprehensiveness**:
 - [USB Bootable OS Burners](#usb-bootable-os-burners)
 - [Remote Desktop & Access](#remote-desktop--access)
 - [Archive & Compression](#archive--compression)
+- [Web Browsers](#web-browsers)
 - [Related Awesome Lists](#related-awesome-lists)
 
 ---
@@ -347,6 +348,22 @@ This list prioritizes **quality over comprehensiveness**:
 - **PDFgear** `MacOS / Windows` [[Website](https://www.pdfgear.com/)]: Free PDF reader and editor with support for viewing, annotation, form filling, PDF conversion, editing, and AI-powered document interaction.
 - **Adobe Acrobat Reader** `MacOS / Windows` [[Website](https://www.adobe.com/acrobat/pdf-reader.html)]: Widely used PDF reader with support for viewing, searching, printing, commenting, form filling, and basic document annotation.
 - **Foxit PDF Reader** `MacOS / Windows` [[Website](https://www.foxit.com/pdf-reader/)]: Feature-rich PDF reader supporting viewing, annotation, form filling, document signing, and collaboration features.
+
+---
+
+## Web Browsers
+> Tools used to browse the web, access online services, and manage web applications.
+
+- **Firefox** `Linux / MacOS / Windows` [[Website](https://www.mozilla.org/firefox/)] | [[Github](https://github.com/mozilla-firefox/firefox)]: Open-source web browser developed by Mozilla with strong privacy controls, extensive extensions, developer tools, and cross-platform support.
+- **Brave** `Linux / MacOS / Windows` [[Website](https://brave.com/)] | [[Github](https://github.com/brave/brave-browser)]: Privacy-focused Chromium-based browser with built-in tracker and advertisement blocking, fingerprinting protections, and optional privacy-oriented features.
+- **Chromium** `Linux / MacOS / Windows` [[Website](https://www.chromium.org/)] | [[Github](https://github.com/chromium/chromium)]: Open-source browser project that forms the foundation of Chrome and many Chromium-based browsers, with support for modern web standards and developer tooling.
+- **Mullvad Browser** `Linux / MacOS / Windows` [[Website](https://mullvad.net/browser)] | [[Github](https://github.com/mullvad/mullvad-browser)]: Privacy-focused Firefox-based browser developed by Mullvad and the Tor Project, designed to reduce tracking and browser fingerprinting.
+- **Ladybird** `Linux / MacOS / Windows` [[Website](https://ladybird.org/)] | [[Github](https://github.com/LadybirdBrowser/ladybird)]: Independent open-source web browser and rendering engine project written in C++, developed separately from Chromium, Firefox, and WebKit.
+- **Google Chrome** `Linux / MacOS / Windows` [[Website](https://www.google.com/chrome/)]: Popular Chromium-based browser with broad web compatibility, extensive extension support, synchronization, developer tools, and integration with Google services.
+- **Microsoft Edge** `Linux / MacOS / Windows` [[Website](https://www.microsoft.com/edge)]: Chromium-based browser with strong web compatibility, developer tools, synchronization, productivity features, and Microsoft ecosystem integration.
+- **Opera** `Linux / MacOS / Windows` [[Website](https://www.opera.com/)]: Chromium-based browser with integrated productivity features, sidebar applications, tab management, and additional built-in browsing utilities.
+- **Vivaldi** `Linux / MacOS / Windows` [[Website](https://vivaldi.com/)]: Highly customizable Chromium-based browser offering advanced tab management, workspaces, keyboard shortcuts, built-in productivity tools, and extensive interface customization.
+- **LibreWolf** `Linux / MacOS / Windows` [[Website](https://librewolf.net/)]: Privacy-focused Firefox fork with enhanced tracking protection, reduced telemetry, hardened defaults, and additional privacy-oriented configuration.
 
 ---
 
