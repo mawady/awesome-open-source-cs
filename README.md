@@ -47,10 +47,11 @@ This list prioritizes **quality over comprehensiveness**:
 - [DevOps & CI/CD](#devops--cicd)
 - [Monitoring & Observability](#monitoring--observability)
 - [Containers & Virtualization](#containers--virtualization)
-- [Security Tools](#security-tools)
+- [Security](#security)
 - [Media & Diagramming](#media--diagramming)
 - [USB Bootable OS Burners](#usb-bootable-os-burners)
-- [Remote Desktop & Access Tools](#remote-desktop--access-tools)
+- [Remote Desktop & Access](#remote-desktop--access)
+- [Archive & Compression](#archive--compression)
 - [Related Awesome Lists](#related-awesome-lists)
 
 ---
@@ -270,13 +271,13 @@ This list prioritizes **quality over comprehensiveness**:
 
 ---
 
-## Security Tools
+## Security
 > Tools used to identify vulnerabilities and improve software security.
 
-- **OpenSSL** `Encryption` [[Website](https://www.openssl.org/)] | [[Github](https://github.com/openssl/openssl)]: Cryptography and SSL/TLS libraries and tools.
-- **GnuPG** `Encryption` [[Website](https://gnupg.org/)] | [[Github](https://github.com/gpg/gnupg)]: GNU implementation of PGP; sign and encrypt files and emails.
+- **OpenSSL** `Cryptography / TLS Toolkit` [[Website](https://www.openssl.org/)] | [[Github](https://github.com/openssl/openssl)]: Cryptography and SSL/TLS libraries and tools.
+- **GnuPG** `Encryption / Signature` [[Website](https://gnupg.org/)] | [[Github](https://github.com/gpg/gnupg)]: GNU implementation of PGP; sign and encrypt files and emails.
 - **Bitwarden** `Password Manager` [[Website](https://bitwarden.com/)] | [[Github](https://github.com/bitwarden)]: Password manager with self-hosted option; secure and open-source.
-- **KeePass** `Password Manager` [[Website](https://keepass.info/)] | [[Github](https://github.com/dlech/KeePass)]: Offline password manager; stores database locally.
+- **KeePassXC / KeePass** `Password Manager` [[Website](https://keepass.info/)] | [[Github](https://github.com/keepassxreboot/keepassxc)]: Offline password manager; stores database locally.
 - **HashiCorp Vault** `Password Manager` [[Website](https://www.vaultproject.io/)] | [[Github](https://github.com/hashicorp/vault)]: Secrets management for infrastructure; handles credentials, API keys, certificates.
 - **OWASP ZAP** `Security Scanner` [[Website](https://www.zaproxy.org/)] | [[Github](https://github.com/zaproxy/zaproxy)]: Web application security scanner; find vulnerabilities before attackers do.
 - **Trivy** `Security Scanner` [[Website](https://www.aquasec.com/trivy/)] | [[Github](https://github.com/aquasecurity/trivy)]: Vulnerability scanner for containers and artifacts.
@@ -288,11 +289,11 @@ This list prioritizes **quality over comprehensiveness**:
 
 - **VLC** `Media Player` `Linux / MacOS / Windows` [[Website](https://www.videolan.org/vlc/)] | [[Github](https://github.com/videolan/vlc)]: Universal media player; plays virtually any format.
 - **OBS Studio** `Media Streaming / Recording` `Linux / MacOS / Windows` [[Website](https://obsproject.com/)] | [[Github](https://github.com/obsproject/obs-studio)]: Live streaming and screen recording software.
-- **Shotcut** `Media Editor` `Linux / MacOS / Windows` [[Github](https://github.com/mltframework/shotcut)]: Video editor with timeline; free and feature-rich.
+- **Shotcut** `Media Editor` `Linux / MacOS / Windows` [[Website](https://www.shotcut.org/)] | [[Github](https://github.com/mltframework/shotcut)]: Video editor with timeline; free and feature-rich.
 - **Inkscape** `Graphics Editor` `Linux / MacOS / Windows` [[Website](https://inkscape.org/)] | [[Github](https://github.com/inkscape/inkscape)]: Vector graphics editor; design logos, illustrations, and technical drawings.
 - **GIMP** `Graphics Editor` `Linux / MacOS / Windows` [[Website](https://www.gimp.org/)] | [[Github](https://github.com/GNOME/gimp)]: Raster graphics editor; image manipulation and photo editing.
 - **Krita** `Graphics Editor` `Linux / MacOS / Windows` [[Website](https://krita.org/)] | [[Github](https://github.com/KDE/krita)]: Painting software designed for digital artists; excellent brush engine.
-- **draw.io** `Diagram Editor` `Web / Desktop` [[Website](https://draw.io/)] | [[Github](https://github.com/jgraph/drawio)]: Diagram editor for flowcharts, mockups, and architecture diagrams.
+- **draw.io** `Diagram Editor` `Web / Desktop` [[Website](https://draw.io/)] | [[Github](https://github.com/jgraph/drawio-desktop)]: Diagram editor for flowcharts, mockups, and architecture diagrams.
 - **Mermaid** `Diagram Editor` [[Website](https://mermaid.js.org/)] | [[Github](https://github.com/mermaid-js/mermaid)]: Create diagrams from markdown text; flowcharts, sequence diagrams, and more.
 - **Excalidraw** `Diagram Editor` [[Website](https://excalidraw.com/)] | [[Github](https://github.com/excalidraw/excalidraw)]: Virtual whiteboard with hand-drawn aesthetic; great for sketches.
 - **D2** `Diagram Editor` [[Website](https://d2lang.com/)] | [[Github](https://github.com/terrastruct/d2)]: Modern diagram language; write diagrams as text.
@@ -303,33 +304,56 @@ This list prioritizes **quality over comprehensiveness**:
 ## USB Bootable OS Burners
 > Tools used to create bootable USB drives for installing or running operating systems.
 
-- **balenaEtcher** `Windows / MacOS / Linux` [[Github](https://github.com/balena-io/etcher)]: Flash OS images to USB drives with one click.
-- **Rufus** `Windows` [[Github](https://github.com/pbatard/rufus)]: Fast and reliable USB bootable media creator.
-- **Ventoy** `Windows / Linux` [[Github](https://github.com/ventoy/Ventoy)]: Create bootable USB from multiple ISO files.
+- **balenaEtcher** `Windows / MacOS / Linux` [[Website](https://etcher.balena.io/)] | [[Github](https://github.com/balena-io/etcher)]: Flash OS images to USB drives with one click.
+- **Rufus** `Windows` [[Website](https://rufus.ie/)] | [[Github](https://github.com/pbatard/rufus)]: Fast and reliable USB bootable media creator.
+- **Ventoy** `Windows / Linux` [[Website](https://www.ventoy.net/)] | [[Github](https://github.com/ventoy/Ventoy)]: Create bootable USB from multiple ISO files.
 
 ---
 
-## Remote Desktop & Access Tools
+## Remote Desktop & Access
 > Tools used to remotely access and manage development machines.
 
 - **RustDesk** `Remote Desktop` `Linux / MacOS / Windows` [[Website](https://rustdesk.com)] | [[Github](https://github.com/rustdesk/rustdesk)]: Open-source, self-hostable remote desktop solution with low-latency access, file transfer, and cross-platform support.
 - **TigerVNC** `Remote Desktop` `Linux / MacOS / Windows` [[Website](https://tigervnc.org/)] | [[Github](https://github.com/TigerVNC/tigervnc)]: Open-source, high-performance VNC server and client for remotely accessing graphical desktops.
+- **Apache Guacamole** `Remote Gateway` `Web / Linux / MacOS / Windows` [[Website](https://guacamole.apache.org/)] | [[Github](https://github.com/apache/guacamole-server)]: Open-source, clientless remote desktop gateway accessible through a web browser; supports VNC, RDP, and SSH.
 - **RealVNC** `Remote Desktop` `Linux / MacOS / Windows` [[Website](https://www.realvnc.com/)]: Reliable VNC-based remote access with cloud connectivity, direct connections, and cross-platform support.
-- **Apache Guacamole** `Remote Desktop` `Web / Linux / MacOS / Windows` [[Website](https://guacamole.apache.org/)] | [[Github](https://github.com/apache/guacamole-server)]: Open-source, clientless remote desktop gateway accessible through a web browser; supports VNC, RDP, and SSH.
 - **Chrome Remote Desktop** `Remote Desktop` `Web` [[Website](https://remotedesktop.google.com/)]: Simple, free remote access solution for securely connecting to computers through a web browser.
 - **AnyDesk** `Remote Desktop` `Linux / MacOS / Windows` [[Website](https://anydesk.com/)]: Fast, low-latency remote desktop with cross-platform support, file transfer, and remote administration features.
 - **TeamViewer** `Remote Desktop` `Linux / MacOS / Windows` [[Website](https://www.teamviewer.com/)]: Popular cross-platform remote desktop and support platform with remote access, file transfer, device management, and collaboration features.
 - **Mosh** `Remote Terminal` `Linux / MacOS / Windows` [[Website](https://mosh.org/)] | [[Github](https://github.com/mobile-shell/mosh)]: SSH-like remote terminal designed for unreliable or changing networks; maintains sessions when switching networks or temporarily losing connectivity.
-- **MeshCentral** `Remote Management` `Linux / MacOS / Windows` [[Website](https://meshcentral.com/)] | [[Github](https://github.com/Ylianst/MeshCentral)] — Open-source, self-hosted remote computer management platform with browser-based desktop, terminal, file transfer, and device administration.
+- **MeshCentral** `Remote Management` `Linux / Windows` [[Website](https://meshcentral.com/)] | [[Github](https://github.com/Ylianst/MeshCentral)] — Open-source, self-hosted remote computer management platform with browser-based desktop, terminal, file transfer, and device administration.
 
+---
+
+## Archive & Compression
+> Tools used to create, extract, compress, encrypt, and manage archives and compressed files.
+
+- **PeaZip** `Linux / Windows / macOS` [[Website](https://peazip.github.io/)] | [[Github](https://github.com/peazip/PeaZip)]: Open-source archive manager supporting a wide range of formats, with encryption, archive conversion, secure deletion, file splitting, and portable versions.
+- **Keka** `macOS` [[Website](https://www.keka.io/)] | [[Github](https://github.com/aonez/Keka)]: Native macOS file archiver supporting formats such as 7z, ZIP, TAR, GZIP, BZIP2, and XZ, with encryption and Finder integration.
+- **7-Zip** `Linux / Windows / macOS` [[Website](https://www.7-zip.org/)] | [[Github](https://github.com/ip7z/7zip)]: Open-source file archiver with high compression ratios, broad format support, strong AES-256 encryption, and a lightweight command-line interface.
+- **UPX** `Linux / macOS / Windows` [[Website](https://upx.github.io/)] | [[Github](https://github.com/upx/upx)]: Open-source executable packer that compresses supported binaries while keeping them directly executable, commonly used to reduce application and binary size.
+- **The Unarchiver** `macOS` [[Website](https://theunarchiver.com/)]: Lightweight archive extraction utility for macOS with support for numerous legacy and less-common archive formats.
+- **Bandizip** `Windows / macOS` [[Website](https://www.bandisoft.com/bandizip/)]: Fast archive utility with support for common compression formats, multi-core compression, archive repair, encryption, and convenient Windows integration.
+
+---
+
+## PDF Readers
+> Tools used to view, read, annotate, search, and manage PDF documents.
+
+- **Stirling-PDF** `Linux / MacOS / Windows` [[Website](https://stirlingpdf.com/)] | [[Github](https://github.com/Stirling-Tools/Stirling-PDF)]: Open-source, self-hosted web application for manipulating PDFs, including merging, splitting, conversion, compression, OCR, metadata editing, signing, and other document operations.
+- **KOReader** `Linux / MacOS / Windows / Android` [[Website](https://koreader.rocks/)] | [[Github](https://github.com/koreader/koreader)]: Open-source document reader optimized for e-ink devices, supporting PDF, EPUB, DJVU, CBZ, MOBI, and other formats with extensive reading and layout controls.
+- **SumatraPDF** `Windows` [[Website](https://www.sumatrapdfreader.org/)] | [[Github](https://github.com/sumatrapdfreader/sumatrapdf)]: Lightweight, open-source document viewer focused on fast startup and low resource usage; supports PDF, EPUB, MOBI, CBZ, CBR, and other formats.
+- **MuPDF** `Linux / MacOS / Windows` [[Website](https://mupdf.com/)] | [[Github](https://github.com/ArtifexSoftware/mupdf)]: Lightweight, high-performance PDF and document viewer with a minimal interface and a strong focus on rendering performance.
+- **PDFgear** `MacOS / Windows` [[Website](https://www.pdfgear.com/)]: Free PDF reader and editor with support for viewing, annotation, form filling, PDF conversion, editing, and AI-powered document interaction.
+- **Adobe Acrobat Reader** `MacOS / Windows` [[Website](https://www.adobe.com/acrobat/pdf-reader.html)]: Widely used PDF reader with support for viewing, searching, printing, commenting, form filling, and basic document annotation.
+- **Foxit PDF Reader** `MacOS / Windows` [[Website](https://www.foxit.com/pdf-reader/)]: Feature-rich PDF reader supporting viewing, annotation, form filling, document signing, and collaboration features.
+
+---
 
 ## Related Awesome Lists
 
-
 - **[awesome-computer-vision-resources](https://github.com/mawady/awesome-computer-vision-resources)**: Structured learning reference for computer vision: from image fundamentals to research frontiers.
-
 - **[awesome-computer-vision-tools](https://github.com/mawady/awesome-computer-vision-tools)**: Curated tools for the full CV pipeline: training, data augmentation, experiment tracking, inference, edge deployment, and MLOps.
-
 - **[awesome-academic-cs](https://github.com/mawady/awesome-academic-cs)**: Academic resources for teaching and research in computer science.
 
 ---
