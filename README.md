@@ -33,6 +33,7 @@ This list prioritizes **quality over comprehensiveness**:
 
 ## Table of Contents
 
+- [Linux Distributions](#linux-distributions)
 - [Package Managers](#package-managers)
 - [Version Control & Git](#version-control--git)
 - [Editors & IDEs](#editors--ides)
@@ -54,6 +55,35 @@ This list prioritizes **quality over comprehensiveness**:
 - [Archive & Compression](#archive--compression)
 - [Web Browsers](#web-browsers)
 - [Related Awesome Lists](#related-awesome-lists)
+
+---
+
+## Linux Distributions
+> Open-source or free Linux operating systems used for desktops, servers, development, privacy, security, embedded systems, and specialized computing environments.
+
+- **Ubuntu** `General / Beginner` `Debian Family` [[Website](https://ubuntu.com/)] | [[GitHub](https://github.com/canonical)]: Widely adopted Debian-based OS maintained by Canonical, powering servers, cloud infrastructure, enterprise desktops, and AI/ML workflows.
+- **Debian** `General / Server` `Debian Family` [[Website](https://www.debian.org/)] | [[GitLab](https://salsa.debian.org/)]: Foundational, community-driven distribution celebrated for extreme stability, strict free software guidelines, and expansive package repositories.
+- **Linux Mint** `General / Windows-like` `Debian / Ubuntu Family` [[Website](https://linuxmint.com/)] | [[GitHub](https://github.com/linuxmint)]: Desktop-oriented distribution focused on out-of-the-box usability, traditional workflows via Cinnamon, and an accessible beginner experience.
+- **MX Linux** `General / Lightweight` `Debian Family` [[Website](https://mxlinux.org/)] | [[GitHub](https://github.com/MX-Linux)]: High-efficiency, mid-weight Debian-based distro known for rock-solid stability, low hardware overhead, and extensive built-in graphical admin tools (MX Tools).
+- **Fedora** `General / Beginner` `Fedora Family` [[Website](https://fedoraproject.org/)] | [[GitLab](https://gitlab.com/fedora)]: Upstream, community-driven distro sponsored by Red Hat, showcasing cutting-edge Linux technologies, modern developer tools, and GNOME implementations.
+- **Arch Linux** `General / Advanced` `Arch Family` [[Website](https://archlinux.org/)] | [[GitLab](https://gitlab.archlinux.org/archlinux)]: Minimalist, rolling-release DIY distribution focused on simplicity, user control, the `pacman` package manager, and the Arch User Repository (AUR).
+- **Manjaro** `General / Beginner` `Arch Family` [[Website](https://manjaro.org/)] | [[GitLab](https://gitlab.manjaro.org/)]: Accessible Arch-based distribution featuring an automated graphical installer, curated rolling software branches, and pre-configured desktop environments.
+- **openSUSE** `General / Beginner` `SUSE Family` [[Website](https://www.opensuse.org/)] | [[GitHub](https://github.com/openSUSE)]: Community Linux distribution available in rolling-release Tumbleweed and stable Leap variants, with strong administration and packaging tools.
+- **NixOS** `General / DevOps` `Nix Family` [[Website](https://nixos.org/)] | [[GitHub](https://github.com/NixOS/nixpkgs)]: Fully declarative, reproducible Linux distribution built on the Nix package manager, offering atomic system upgrades and instant state rollbacks.
+- **Alpine Linux** `General / Containers` `Independent / musl` [[Website](https://alpinelinux.org/)] | [[GitLab](https://gitlab.alpinelinux.org/alpine)]: Ultra-lightweight, security-oriented distribution built on musl libc and BusyBox, standard for Docker container base images and routers.
+- **Rocky Linux** `Enterprise` `RHEL Family` [[Website](https://rockylinux.org/)] | [[GitHub](https://github.com/rocky-linux)]: 100% bug-for-bug compatible community replacement for Red Hat Enterprise Linux, founded by original CentOS co-creator Gregory Kurtzer.
+- **AlmaLinux** `Enterprise` `RHEL Family` [[Website](https://almalinux.org/)] | [[GitHub](https://github.com/AlmaLinux)]: Community-owned, ABI-compatible enterprise Linux distribution governed by a 501(c)(6) non-profit for cloud, data center, and server workloads.
+- **CentOS Stream** `Enterprise` `RHEL Family` [[Website](https://www.centos.org/stream/)] | [[GitLab](https://gitlab.com/redhat/centos-stream)]: Upstream continuous-delivery development platform sitting immediately ahead of future Red Hat Enterprise Linux minor releases.
+- **Kali Linux** `Security` `Debian Family` [[Website](https://www.kali.org/)] | [[GitLab](https://gitlab.com/kalilinux)]: Industry-standard Debian-derived distribution purpose-built for penetration testing, digital forensics, ethical hacking, and vulnerability assessments.
+- **Parrot OS** `Security` `Debian Family` [[Website](https://www.parrotsec.org/)] | [[GitLab](https://gitlab.com/parrotsec)]: Security-focused distribution offering toolsets for penetration testing, cryptography, privacy defense, and reverse engineering.
+- **Tails** `Privacy` `Debian Family` [[Website](https://tails.net/)] | [[GitLab](https://gitlab.tails.boum.org/tails/tails)]: Live, amnesic portable OS engineered to leave zero traces on host storage while forcing all outgoing network traffic through the Tor network.
+- **Qubes OS** `Security` `Fedora / Xen Family` [[Website](https://www.qubes-os.org/)] | [[GitHub](https://github.com/QubesOS)]: Ultra-secure desktop operating system utilizing Xen hardware virtualization to compartmentalize applications into isolated, disposable virtual machines (AppVMs).
+- **Bazzite** `Gaming` `Fedora Family` [[Website](https://bazzite.gg/)] | [[GitHub](https://github.com/ublue-os/bazzite)]: Fedora Atomic/OSTree-based immutable gaming distribution designed for desktop PCs, handheld gaming PCs (Steam Deck, ROG Ally), and living-room setups.
+- **SteamOS** `Gaming` `Arch Family` [[Website](https://store.steampowered.com/steamos)] | [[GitLab](https://gitlab.steamos.cloud/)]: Valve's immutable, Arch-based gaming operating system powering the Steam Deck, built around Gamescope, Proton, and the Steam Big Picture interface.
+- **Raspberry Pi OS** `Single-Board` `Debian Family` [[Website](https://www.raspberrypi.com/software/)] | [[GitHub](https://github.com/RPi-Distro)]: Official Debian-optimized operating system tailored specifically for the Raspberry Pi single-board computer lineup.
+- **DietPi** `Single-Board` `Debian Family` [[Website](https://dietpi.com/)] | [[GitHub](https://github.com/MichaIng/DietPi)]: Extremely lightweight Debian-based distribution with automated configuration and software installation tools for SBCs and low-resource systems.
+- **Puppy Linux** `Minimal` `Multiple Families / Independent` [[Website](https://puppylinux-woof-ce.github.io/)] | [[GitHub](https://github.com/puppylinux-woof-CE)]: Extremely lightweight Linux family designed to run efficiently on older hardware, removable media, and systems with limited resources.
+- **Tiny Core Linux** `Minimal` `Independent` [[Website](https://tinycorelinux.net/)] | [[GitHub](https://github.com/tinycorelinux)]: Extremely small modular Linux distribution designed to provide a minimal base system that can be extended with packages and applications as needed.
 
 ---
 
