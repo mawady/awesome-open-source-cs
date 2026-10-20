@@ -444,9 +444,9 @@ Format your suggestion like this:
 
 ## License
 
-This list and all its content are released under the [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/).
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-All projects linked in this list are open-source with their respective licenses.
+To the extent possible under law, [Mohamed Elawady](https://github.com/mawady) has waived all copyright and related rights to this work.
 
 ---
 
